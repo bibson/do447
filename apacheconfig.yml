@@ -1,6 +1,7 @@
 ---
 - name: config apache server
   hosts: all
+  become: True
   gather_facts: true
   tasks:
     - name: install httpd
