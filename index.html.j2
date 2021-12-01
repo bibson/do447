@@ -3,5 +3,4 @@ Deployment Version: {{ deployment_version }} <br>
 Machine: "{{ ansible_facts['fqdn'] }}"
 OS: "{{ ansible_facts['distribution'] }}
 RAM: "{{ ansible_facts['memtotal_mb'] }}" MB
-Current Memory: "{{ ansible_facts.memtotal_mb }}" <br>
 Current Free Memory: "{{ ansible_facts.memfree_mb }}" <br>
